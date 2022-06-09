@@ -1,0 +1,20 @@
+$btn-white-space: nowrap;
+$primary: #a53000;
+$border-radius: 0.25rem;
+$font-family: var(--bs-body-font-family);
+$theme-colors: (
+  
+	'accent': #00000ccc,
+	'primary': #a53000,
+	'primary-dark': #689b38,
+	'primary-light': #ccff96,
+	'primary-text': #212121,
+	'secondary-text': #757575,
+	'text-on-primary': #ffffff,
+	'text-on-accent': #000000,
+	'dark': #343a40,
+	'light': #f8f9fa,
+	'gray': #6c757d,
+	'white': #ffffff,
+	'lightgrey': #f2f2f2,
+) !default;

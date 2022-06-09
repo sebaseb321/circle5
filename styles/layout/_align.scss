@@ -1,0 +1,80 @@
+.text-center {
+  text-align: center !important;
+}
+
+.position-absolute {
+  &.align-start {
+    left: 0;
+  }
+  &.align-center {
+    left: 50%;
+    transform: translate(-50%, 0);
+    &.valign-center {
+      transform: translate(-50%, -50%);
+    }
+  }
+  &.align-end {
+    right: 0;
+  }
+
+  &.valign-start {
+    top: 0;
+  }
+  &.valign-center {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  &.valign-end {
+    bottom: 0;
+  }
+}
+
+:not(.direction-vertical) {
+  > .align-start {
+    justify-content: flex-start !important;
+    justify-self: flex-start !important;
+  }
+  > .align-center {
+    justify-content: center !important;
+    justify-self: center !important;
+  }
+  > .align-end {
+    justify-content: flex-end !important;
+    justify-self: flex-end !important;
+  }
+
+  > .valign-start {
+    align-self: flex-start !important;
+  }
+  > .valign-center {
+    align-self: center !important;
+  }
+  > .valign-end {
+    align-self: flex-end !important;
+  }
+}
+
+.direction-vertical {
+  > .align-start {
+    align-self: flex-start !important;
+  }
+  > .align-center {
+    align-self: center !important;
+  }
+  > .align-end {
+    align-self: flex-end !important;
+  }
+
+  > .valign-start {
+    justify-content: flex-start !important;
+    justify-self: flex-start !important;
+  }
+  > .valign-center {
+    justify-content: center !important;
+    justify-self: center !important;
+  }
+  > .valign-end {
+    justify-content: flex-end !important;
+    justify-self: flex-end !important;
+  }
+}

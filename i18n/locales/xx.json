@@ -1,0 +1,30 @@
+{
+    "translation": {
+        "title": "Circles",
+        "description": "Circle",
+        "Home2": {
+            "title": "Cicles",
+            "homeHeaderMenuAbout": "Locations",
+            "homeHeaderTheHouse": "The House",
+            "homeHeaderMenuAbout1654738153162": "Stay With Us",
+            "homeHeaderButtom": "Sign in",
+            "homeHeaderApplyButtom": "Apply for membership",
+            "homeBannerRightButtom": "Apply for membership",
+            "homeBannerRightTopButtom": "Consistent entrepreneurs",
+            "homeBannerRightButtom1654792384328": "Apply for membership",
+            "homeHeaderMembershipTitle": "Membership",
+            "homeBannerRightButtom1654800600816": "Apply for membership",
+            "homeBannerRightButtom1654801891477": "Apply for membership",
+            "homeBannerRightButtom1654801908424": "Apply for membership",
+            "homeFooterLeftText": "\u00a9 2021 circles.house - All right reserved",
+            "homeFooterRightText": "Circles",
+            "homeFooterRightText2": "Pol\u00edtica de cookies",
+            "homeFooterRightText3": "Pol\u00edtica de privacidad",
+            "homeFooterRightTextGroup": "Passeig de la Bonanova 26,",
+            "homeFooterRightTextGroup1": "Barcelona, Spain"
+        },
+        "cokkies_dialog": {
+            "title": "Hi"
+        }
+    }
+}

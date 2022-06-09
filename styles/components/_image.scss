@@ -1,0 +1,19 @@
+.image {
+  :not(&.card-img, &.card-img-top) {
+    border-radius: inherit;
+    height: inherit;
+    width: 100%;
+  }
+
+  &.cover {
+    object-fit: cover !important;
+  }
+
+  &.contain {
+    object-fit: contain !important;
+  }
+
+  &.fill {
+    object-fit: fill !important;
+  }
+}

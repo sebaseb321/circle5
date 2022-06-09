@@ -1,0 +1,6 @@
+.text {
+  white-space: pre-wrap;
+  > * {
+    margin: inherit;
+  }
+}

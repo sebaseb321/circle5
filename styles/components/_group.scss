@@ -1,0 +1,47 @@
+.group {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  > :not(.group) {
+    flex: none;
+  }
+  > .group {
+    flex: auto;
+    flex-grow: 0;
+  }
+
+  &.direction-auto {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &.direction-vertical {
+    flex-direction: column;
+    > .w-fill {
+      width: 100% !important;
+      flex-grow: 0 !important;
+    }
+  }
+
+  &.direction-horizontal {
+    flex-direction: row;
+    > .h-fill {
+      height: 100% !important;
+      flex-grow: 0 !important;
+    }
+  }
+
+  &.scrollable {
+    &.direction-vertical {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    &.direction-horizontal {
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  }
+}

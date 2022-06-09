@@ -1,0 +1,32 @@
+{
+    "translation": {
+        "Home2": {
+            "homeHeaderMenuAbout": "Destinos",
+            "homeHeaderTheHouse": "Sobre nosotros",
+            "homeHeaderMenuAbout1654738153162": "Qu\u00e9date con nosotros",
+            "homeHeaderButtom": "Iniciar sesi\u00f3n",
+            "homeHeaderApplyButtom": "Hazte miembro",
+            "homeBannerRightButtom": "Hazte miembro",
+            "homeBannerRightTopButtom": "Emprendedores consistentes",
+            "homeBannerRightButtom1654792384328": "Hazte miembro",
+            "homeHeaderMembershipTitle": "Membres\u00edas",
+            "homeBannerRightButtom1654800600816": "Hazte miembro",
+            "homeBannerRightButtom1654801891477": "Hazte miembro",
+            "homeBannerRightButtom1654801908424": "Hazte miembro"
+        },
+        "cokkies_dialog": {
+            "title": "\u00a1Hola",
+            "text": "Codoozers!"
+        },
+        "main_menu": {
+            "items": {
+                "option1": {
+                    "title": "Opci\u00f3n 1"
+                },
+                "option2": {
+                    "title": "Opci\u00f3n 2"
+                }
+            }
+        }
+    }
+}

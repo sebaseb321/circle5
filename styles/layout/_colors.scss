@@ -1,0 +1,68 @@
+body {
+  @each $color, $value in $theme-colors {
+    --#{$color}: #{$value};
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .bg-#{$color} {
+    background-color: var(--#{$color}) !important;
+  }
+
+  .text-#{$color} {
+    color: var(--#{$color}) !important;
+  }
+
+  @each $color2, $value2 in $theme-colors {
+    .bg-#{$color}-to-#{$color2} {
+      background: linear-gradient(
+        to bottom,
+        var(--#{$color}),
+        var(--#{$color2})
+      ) !important;
+
+      &.to-left {
+        background: linear-gradient(
+          to left,
+          var(--#{$color}),
+          var(--#{$color2})
+        ) !important;
+      }
+      &.to-right {
+        background: linear-gradient(
+          to right,
+          var(--#{$color}),
+          var(--#{$color2})
+        ) !important;
+      }
+      &.to-top {
+        background: linear-gradient(
+          to top,
+          var(--#{$color}),
+          var(--#{$color2})
+        ) !important;
+      }
+      &.to-left {
+        background: linear-gradient(
+          to left,
+          var(--#{$color}),
+          var(--#{$color2})
+        ) !important;
+      }
+      &.to-right {
+        background: linear-gradient(
+          to right,
+          var(--#{$color}),
+          var(--#{$color2})
+        ) !important;
+      }
+      &.to-top {
+        background: linear-gradient(
+          to top,
+          var(--#{$color}),
+          var(--#{$color2})
+        ) !important;
+      }
+    }
+  }
+}
